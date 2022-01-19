@@ -1,0 +1,457 @@
+.heading2Xl {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
+    margin: 1rem 0;
+  }
+  
+  .headingXl {
+    font-size: 2rem;
+    line-height: 1.3;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
+    margin: 1rem 0;
+  }
+  
+  .headingLg {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    margin: 1rem 0;
+  }
+  
+  .headingMd {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  .h1 {
+    color: #06a783;
+    font-size: 35px;
+    margin-top: 10%;
+  }
+  
+  .borderCircle {
+    border-radius: 9999px;
+  }
+  
+  .colorInherit {
+    color: inherit;
+  }
+  
+  .padding1px {
+    padding-top: 1px;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .listItem {
+    margin: 0 0 1.25rem;
+  }
+  
+  .lightText {
+    color: #666;
+  }
+  
+  .ul {
+    list-style: none;
+    padding: 10px;
+  }
+  
+  .funFact {
+    color: #06a783;
+    text-align: right;
+  }
+  
+  /* Custom Styles */
+  .parent {
+    scroll-behavior: smooth;
+  }
+  
+  .screen {
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    min-height: 100vh;
+  }
+  
+  .alternate {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 100px;
+    background-color: white;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    justify-content: center;
+  }
+  
+  .testimonials {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #06a783;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    justify-content: center;
+    margin-bottom: 7%;
+  }
+  
+  .container {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  
+  .title {
+    font-size: 5rem;
+    text-shadow: 3px 3px #06a783;
+    z-index: 1;
+    margin-top: 10%;
+  }
+  
+  .p {
+    text-align: left;
+    margin-left: 3cm;
+    margin-right: 3cm;
+  }
+  
+  .subtitle{
+    font-size: 1.5rem;
+    text-shadow: 2px 3px black;
+    color: white;
+    z-index: 1;
+    margin-top: 13%;
+    font-family: 'Source Code Pro', monospace;
+  }
+  
+  .btn {
+    width: fit-content;
+    height: fit-content;
+    font-size: 1.75rem;
+    cursor: pointer;
+    background: black;
+    color: white;
+    border: black;
+    border-radius: 5px;
+    transition: all .4s;
+    padding: 10px;
+  }
+  
+  .btn:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 7px 0 -2px white,
+    0 15px 0 -4px #06a783,
+    0 16px 10px -3px #06a783;
+    text-decoration: none;
+  }
+  
+  .navBar {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 4;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  }
+  
+  .navBar a {
+    color: black;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .dropdownBtn {
+    font-size: 17px;
+    color: white;
+  }
+  
+  .navBar a:hover, .dropdownBtn:hover {
+    color: #06a783;
+  }
+  
+  .dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+  }
+  
+  .dropdownContent a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown:hover .dropdownContent {
+    display: block;
+  }
+  
+  .cover {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(#00000000, #00000000), url(../public/cssbg.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .about {
+    background-color: #e8e8e8;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .h2 {
+    font-size: 50px;
+    text-shadow: 1.5px 1.5px white;
+    z-index: 0;
+  }
+  
+  .h2Alt {
+    font-size: 50px;
+    text-shadow: 1.5px 1.5px #06a783;
+    z-index: 0;
+  }
+  
+  .slides {
+    width: 70%;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    margin: 3% auto;
+    z-index: 3;
+  }
+  
+  .slides::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  .slides::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 10px;
+  }
+  
+  .slides > div {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    width: 100%;
+    height: 300px;
+    background: white;
+    border-radius: 25px;
+    transform-origin: center center;
+    transition: transform 0.4s;
+    position: relative;
+  }
+  
+  .slider a {
+    color: #06a783;
+    padding: 0.75% 0.75%;
+  }
+  
+  .slider > a {
+    display: inline-flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 0 0.5rem 0;
+    position: relative;
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.5);
+    margin: 0.5% 0.5%;
+  }
+  
+  .slider > a:focus {
+    background: black;
+  }
+  
+  .slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slide blockquote {
+    text-align: justify;
+    font-size: 20px;
+  }
+  
+  .slide p {
+    font-size: 20px;
+    color: #06a783;
+  }
+  
+  .footer {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+    width: 100vw;
+    height: fit-content;
+    margin-top: auto;
+  }
+  
+  .footercontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+  }
+  
+  .link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    color: #06a783;
+    text-decoration: none;
+  }
+  
+  .a {
+    color: #06a783;
+    text-decoration: none;
+  }
+  
+  .li {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    justify-content: center;
+  }
+  
+  .footer p {
+    color: white;
+    font-size: 15px;
+    text-align: right;
+  }
+  
+  .footer span {
+    color: white;
+  }
+  
+  .bgImage {
+    opacity: 75%;
+    z-index: 0;
+  }
+  
+  /* Responsive Design for small screens (e.g. mobile) */
+  @media screen and (max-width: 990px) {
+    .container {
+      font-size: 1rem;
+    }
+  
+    .title {
+      font-size: 2.5rem;
+    }
+  
+    .btn {
+      font-size: 1rem;
+    }
+  
+    .link {
+      font-size: 10px;
+    }
+  
+    .navBar a {
+      padding: 5px 8px;
+      text-decoration: none;
+      font-size: 8px;
+    }
+  
+    .slide blockquote {
+      font-size: 10px;
+    }
+    
+    .slide p {
+      font-size: 12px;
+    }
+  
+    .testimonials, .screen {
+      margin-bottom: 20%;
+    }
+  
+    .h1 {
+      margin-top: 20%;
+    }
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdowncontent {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdowncontent a {
+    color: black;
+    padding: 10px 8px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  
+  
+  /* Change color of dropdown links on hover */
+  .dropdowncontent a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdowncontent {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  
+  .table {
+    text-align: left;
+    border-spacing: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
